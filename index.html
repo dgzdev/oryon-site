@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <title>Oryon Studio</title>
+</head>
+<body id="BODY">
+    <header>
+        <div class="TOPBAR">
+            <a href="/" id="TITLE">Oryon Studio</a>
+            <nav class="NAV">
+                <ol class="ROW">
+                    <li class="NAVLIST"><a href="/games" class="LINK">Games</a></li>
+                    <li class="NAVLIST"></li><a href="/about" class="LINK">About</a></li>
+                    <li class="NAVLIST"></li><a href="/contact" class="LINK">Contact</a></li>
+                    <li class="NAVLIST"></li>
+                        <div class='square-max'>
+                            <i class="gg-dark-mode icon" id="DARKMODE"></i>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main class="center">
+        <div class="section center">
+            <div class="section50 center">
+                <h1 id="COMPLEMENT" class="text-p weig-h">
+                </h1>
+                <p id="DESCRIPTION" class="text-p weig-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti saepe illo maxime culpa quisquam aut autem quasi blanditiis. Ducimus dignissimos a similique perspiciatis rerum asperiores voluptatibus numquam atque eius pariatur.
+                </p>
+            </div>
+        </div>
+        <script type="module">
+            import Load from "./scripts/load.js"
+            import createListener from "./scripts/dark.js"
+            // Load the page's first scripts.
+            Load()
+
+            // Listener for dark mode button.
+            createListener()
+        </script>
+    </main>
+
+</body>
+</html>

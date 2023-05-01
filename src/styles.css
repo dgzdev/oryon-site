@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Code+Pro:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Code+Pro:wght@300;500;700&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Variables */
+    --header-c: #fc9d6a;
+    --background-c: #000000;
+    --body: #ffffff;
+    --p-font: 'Source Code Pro', monospace;
+    --primary-c: #ffffff;
+    --header-f: 'Yellowtail', cursive;
+    --link-f: 'Righteous', cursive;
+    --hover-c: #f9ffc9;
+    --shadow-c: rgba(0, 0, 0, 0.233);
+}
+
+body {
+    background-color: var(--body);
+}
+
+.TOPBAR {
+    height: 100%;
+    width: 100%;
+    background-color: var(--header-c);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-c);
+    font-family: var(--header-f);
+    font-size: 6vh;
+}
+
+.TOPBAR #TITLE {
+    text-align: center;
+    align-self: flex-start;
+    margin: 1vh;
+    font-size: 6vh;
+    color: var(--primary-c);
+    font-family: var(--header-f);
+    font-size: 6vh;
+    margin-left: 10vh;
+    user-select: none;
+    text-shadow: var(--shadow-c) 0 2px 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s ease-in-out;
+}
+
+.TOPBAR #TITLE:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.NAV {
+    width: 30%;
+    margin-right: 10vh;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.ROW {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.LINK {
+    color: var(--primary-c);
+    width: 100%;
+    height: 100%;
+    font-family: var(--link-f);
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 2vh;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    user-select: none;
+    text-shadow: var(--shadow-c) 0 2px 5px;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+
+.LINK:hover {
+    transform: scale(1.2);
+    color: var(--hover-c);
+    text-decoration: underline;
+}
+
+.NAVLIST {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    color: var(--primary-c);
+    text-shadow: var(--shadow-c) 0 2px 5px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: var(--hover-c);
+}
+
+.square-max {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    color: var(--primary-c);
+    text-shadow: var(--shadow-c) 0 2px 5px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.text-p {
+    color: var(--header-c);
+    font-family: var(--p-font);
+    user-select: none;
+    text-shadow: var(--shadow-c) 0 1.3px 3px;
+}
+
+.weig-h {
+    font-weight: 700;
+}
+.weig-p {
+    font-weight: 400;
+}
+
+.section {
+    height: 100%;
+    width: 100%;
+    margin-top: 5vh
+}
+
+.section50 {
+    height: 50%;
+    width: 50%;
+    margin-top: 1vh
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
