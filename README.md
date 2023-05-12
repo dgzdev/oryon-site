@@ -8,5 +8,5 @@ Um site possui duas funções principais: o modo claro e o modo escuro. Além di
 
 ## Previa:
 <figure class="gif">
-    <img src="https://i.gyazo.com/732cdaf615c2229cd9e052e7711f60cf.gif" style="border-radius: 30%;">
+    <img src="https://i.gyazo.com/732cdaf615c2229cd9e052e7711f60cf.gif" style="border-radius: 8px">
 </figure>
